@@ -14,23 +14,26 @@ public class Gallery {
         this.till = 0.0;
         // artworkCollection.put("Artist: Fred Smith, Artwork: The Weeping Widow, nft: qqwweerrttyy", 350.0);
     }
+    Integer price = 350;
 
 
     public Double getTill(){
         return till;
+
     }
 
     //public void takePayment(Double payment) {
     //    till += payment;
     //}
 
+
     public Integer takePay(){
-        return 350;
+        return price;
     }
 
 
     public Integer getPrice(){
-        return 350;
+        return price;
     }
 
 

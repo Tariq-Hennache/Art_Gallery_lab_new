@@ -19,9 +19,9 @@ public class Main {
         String artChoice = artDecision.nextLine();
 
         if (artChoice.equals("yes") || artChoice.equals("Yes")) {
-            System.out.println("Hello, " + customer1.getName() + ", you have been charged " + gallery.getPrice() + " pounds, now you have " + customer1.getNewWallet() + " pounds!");
+            System.out.println("Thank you for your purchase " + customer1.getName() + ", you have been charged " + gallery.getPrice() + " pounds, now you have " + customer1.getNewWallet() + " pounds!");
             System.out.println("money in till = " + gallery.takePay());
-        } else if (artChoice.equals("no")) {
+        } else if (artChoice.equals("no") || artChoice.equals("No")) {
             System.out.println("We have nothing for you have a nice day");
         }
 
